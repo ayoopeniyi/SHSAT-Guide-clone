@@ -1,0 +1,52 @@
+.equation-calculator .caret {
+  display: inline-block;
+  background: #3b82f6;
+  animation: blink 1s steps(1) infinite;
+}
+
+.equation-calculator .fraction-caret {
+  color: #3b82f6;
+  font-weight: bold;
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.equation-calculator .fraction-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.equation-calculator .fraction-line {
+  text-align: center;
+}
+
+.equation-calculator .fraction-divider {
+  text-align: center;
+  border-top: 1px solid #000;
+  margin: 2px 0;
+}
+
+.equation-calculator .fraction-numerator,
+.equation-calculator .fraction-denominator,
+.equation-calculator .fraction-whole {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 2px;
+  transition: background-color 0.2s;
+}
+
+.equation-calculator .fraction-numerator:hover,
+.equation-calculator .fraction-denominator:hover,
+.equation-calculator .fraction-whole:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+}

@@ -1,0 +1,302 @@
+{
+  "products": [
+    {
+      "id": "prod_parent_guide",
+      "name": "Parent Guide (Free PDF Download)",
+      "overview": "Navigating the NYC high school admissions process can feel overwhelming. The Bell Curves SHSAT Parent Guide makes it simple. This free, easy-to-read handbook explains the SHSAT exam, lays out a clear preparation timeline, and shares proven strategies from 20+ years of test prep expertise. Parents gain clarity and confidence while supporting their child’s journey toward a specialized high school seat.",
+      "features": [
+        "Step-by-step SHSAT overview",
+        "Preparation timeline and milestones",
+        "Answers to the most common parent questions",
+        "Actionable tips for supporting study at home"
+      ],
+      "benefits": [
+        "Removes the confusion around the SHSAT process",
+        "Gives families a structured plan from start to finish",
+        "Helps avoid costly mistakes and missed deadlines",
+        "Builds a foundation for confident, effective prep"
+      ],
+      "whoFor": "Parents of 7th and 8th graders applying to NYC specialized high schools who want a trusted, easy-to-follow roadmap.",
+      "pricing": {
+        "price": "0.00",
+        "discountPrice": "0.00",
+        "note": "Always free, included in all institutional partnerships"
+      },
+      "cta": "Download the Free Parent Guide",
+      "metadata": {
+        "titleTag": "SHSAT Parent Guide | Free PDF Download from Bell Curves",
+        "metaDescription": "Download the free SHSAT Parent Guide from Bell Curves. Learn the admissions timeline, test details, and how to support your child’s prep with expert strategies."
+      }
+    },
+    {
+      "id": "prod_readiness_quiz", 
+      "name": "Readiness Quiz (Free Online Diagnostic)",
+      "overview": "Not sure if your child is ready for the SHSAT? The Bell Curves Readiness Quiz is a fast, free way to find out. In just 10–15 adaptive questions, you’ll get an instant readiness score and personalized recommendations for next steps. It’s the perfect low-commitment starting point for families deciding when to begin SHSAT prep.",
+      "features": [
+        "10–15 adaptive SHSAT-style questions",
+        "Instant readiness score",
+        "Personalized recommendations for next steps",
+        "Option to save results in a free account"
+      ],
+      "benefits": [
+        "Quickly identifies strengths and weaknesses",
+        "Gives families clarity on timing and urgency",
+        "Provides a stress-free way to preview the SHSAT",
+        "Creates a data-driven starting point for prep"
+      ],
+      "whoFor": "Families unsure of when to start SHSAT prep who want quick, actionable insight before committing to a course, workbook, or bundle.",
+      "pricing": {
+        "price": "0.00",
+        "discountPrice": "0.00",
+        "note": "Always free"
+      },
+      "cta": "Take the Free Readiness Quiz",
+      "metadata": {
+        "titleTag": "SHSAT Readiness Quiz | Free Online Diagnostic",
+        "metaDescription": "Try our free SHSAT Readiness Quiz. Get an instant score, see strengths and weaknesses, and receive expert recommendations for your child’s prep plan."
+      }
+    },
+    {
+      "id": "prod_ai_test_prep_toolkit",
+      "name": "AI Test Prep Toolkit (Prompt Guide eBook)",
+      "overview": "The AI Test Prep Toolkit is the first SHSAT prep guide that shows families how to use AI tools like ChatGPT to supercharge studying. With custom prompt templates, sample study plans, and expert tips, students learn to generate practice, explanations, and schedules on demand. It’s the future of prep—blending Bell Curves’ decades of experience with cutting-edge technology.",
+      "features": [
+        "Ready-to-use AI prompt templates",
+        "Step-by-step study schedule samples",
+        "Guidance on using AI for explanations & practice",
+        "Strategies for balancing AI with traditional study"
+      ],
+      "benefits": [
+        "Makes studying more engaging and personalized",
+        "Saves time by generating instant practice and feedback",
+        "Builds student independence and digital literacy",
+        "Keeps parents involved without micromanaging"
+      ],
+      "whoFor": "Tech-savvy families and motivated students who want a smarter, more modern way to prepare for the SHSAT.",
+      "pricing": {
+        "price": "24.99",
+        "discountPrice": "19.99",
+        "note": "Limited-time digital offer. Institutional/white-label available."
+      },
+      "cta": "Download the AI Test Prep Toolkit Now",
+      "metadata": {
+        "titleTag": "AI Test Prep Toolkit | SHSAT Study with ChatGPT & AI",
+        "metaDescription": "Download the Bell Curves AI Test Prep Toolkit. Get AI prompts, study plans, and expert strategies to make SHSAT prep more efficient and effective."
+      }
+    },
+    {
+      "id": "prod_question_bank",
+      "name": "Question Bank (Online Drill Tool)",
+      "overview": "Practice makes progress. The SHSAT Question Bank delivers 600+ DOE-aligned questions, including new digital formats like drag-and-drop and number lines. With detailed explanations, hints, and tracking, students build mastery across topics at their own pace.",
+      "features": [
+        "600+ SHSAT practice questions",
+        "Covers new DOE digital question types",
+        "Detailed explanations and hints",
+        "Topic-based drills with progress tracking"
+      ],
+      "benefits": [
+        "Builds skills systematically across SHSAT sections",
+        "Prepares students for new digital question formats",
+        "Strengthens weak areas with targeted practice",
+        "Encourages consistent study habits with measurable growth"
+      ],
+      "whoFor": "Students who want unlimited, flexible practice that they can do anytime, anywhere.",
+      "pricing": {
+        "price": "55.00",
+        "discountPrice": "49.50",
+        "note": "Limited-time discount. Institutional/classroom license available."
+      },
+      "cta": "",
+      "metadata": {
+        "titleTag": "SHSAT Question Bank | 600+ Online Practice Questions",
+        "metaDescription": "Access 600+ SHSAT practice questions with explanations and tracking. Prepare with DOE-aligned formats and build confidence for test day."
+      }
+    },
+    {
+      "id": "prod_test_pack",
+      "name": "Test Pack (5 Digital Timed Tests)",
+      "overview": "Test day confidence comes from real practice. The SHSAT Test Pack includes five full-length exams in the same digital format used by the DOE. Timed, scored, and with detailed reports, these practice tests help students sharpen pacing, build endurance, and reduce anxiety.",
+      "features": [
+        "5 full-length digital SHSAT practice tests",
+        "Timed format identical to DOE system",
+        "Automatic scoring and detailed reports",
+        "Progress tracking across multiple attempts"
+      ],
+      "benefits": [
+        "Builds stamina for the real exam",
+        "Reduces anxiety through authentic simulation",
+        "Identifies pacing and accuracy challenges",
+        "Shows measurable improvement over time"
+      ],
+      "whoFor": "Students preparing to take the SHSAT who need authentic, timed test practice.",
+      "pricing": {
+        "price": "64.99",
+        "discountPrice": "58.49",
+        "note": "Limited-time discount. Institutional license available."
+      },
+      "cta": "Get the SHSAT Test Pack Today",
+      "metadata": {
+        "titleTag": "SHSAT Practice Test Pack | 5 Full-Length Digital Exams",
+        "metaDescription": "Prepare for the SHSAT with 5 full-length practice exams in DOE’s digital format. Build pacing, accuracy, and confidence before test day."
+      }
+    },
+    {
+      "id": "prod_self_paced_course",
+      "name": "Self-Paced Virtual Course (On-Demand Digital Learning)",
+      "overview": "The SHSAT Self-Paced Virtual Course puts expert instruction in your pocket. With video lessons, interactive quizzes, and progress tracking, students can learn anytime, anywhere. It’s the flexibility of independent study, backed by Bell Curves’ proven curriculum.",
+      "features": [
+        "Video lessons taught by SHSAT experts",
+        "Interactive practice modules and quizzes",
+        "Progress tracking to monitor growth",
+        "Accessible on any device, anytime"
+      ],
+      "benefits": [
+        "Affordable alternative to tutoring",
+        "Structured curriculum builds skills step by step",
+        "Empowers independent learners",
+        "Allows parents to easily track progress"
+      ],
+      "whoFor": "Students who prefer flexible, self-directed study and families seeking high-quality prep without live class costs.",
+      "pricing": {
+        "price": "69.00",
+        "discountPrice": "62.10",
+        "note": "Limited-time discount. Institutional license available."
+      },
+      "cta": "Enroll in the Self-Paced Virtual Course",
+      "metadata": {
+        "titleTag": "SHSAT Self-Paced Course | Online Lessons & Quizzes",
+        "metaDescription": "Learn at your own pace with the Bell Curves SHSAT Self-Paced Course. Video lessons, practice modules, and tracking—all online and affordable."
+      }
+    },
+    {
+      "id": "prod_live_virtual_course",
+      "name": "Live Virtual Course (Instructor-Led Online Class)",
+      "overview": "Get the structure and support your child needs with the SHSAT Live Virtual Course. Expert instructors lead small-group online classes with real-time Q&A, structured homework, and peer interaction. It’s accountability and flexibility rolled into one.",
+      "features": [
+        "Live online sessions with SHSAT instructors",
+        "Small group setting for better interaction",
+        "Structured homework with feedback",
+        "Real-time Q&A and discussion"
+      ],
+      "benefits": [
+        "Keeps students accountable with live instruction",
+        "Builds confidence through teacher feedback",
+        "Provides peer community and support",
+        "Brings expert strategies into the home"
+      ],
+      "whoFor": "Families who want structured, interactive prep with real instructors guiding the process.",
+      "pricing": {
+        "price": "150.00",
+        "discountPrice": "135.00",
+        "note": "Limited-time discount. Institutional group pricing by quote only."
+      },
+      "cta": "Register for the Live Virtual Course",
+      "metadata": {
+        "titleTag": "SHSAT Live Virtual Course | Instructor-Led Prep Online",
+        "metaDescription": "Join Bell Curves’ SHSAT Live Virtual Course. Small-group online classes with expert instructors, real-time feedback, and structured homework."
+      }
+    },
+    {
+      "id": "prod_physical_workbook",
+      "name": "Physical Workbook (Print Edition)",
+      "overview": "The Bell Curves SHSAT Workbook is a trusted, comprehensive print resource. With 500+ practice questions, strategies, and explanations, it’s ideal for students who prefer learning on paper or want a screen-free option.",
+      "features": [
+        "500+ practice questions",
+        "DOE-aligned strategies and explanations",
+        "Comprehensive coverage of SHSAT topics",
+        "Durable, student-friendly design"
+      ],
+      "benefits": [
+        "Encourages active, pen-and-paper learning",
+        "Provides a screen-free option for prep",
+        "Reinforces strategies alongside practice",
+        "Perfect for school, home, or tutoring sessions"
+      ],
+      "whoFor": "Students and families who value traditional study methods and want a reliable prep book.",
+      "pricing": {
+        "price": "45.99",
+        "discountPrice": "34.49",
+        "note": "Limited-time discount. Institutional bulk/co-branded copies available."
+      },
+      "cta": "Order the SHSAT Workbook Today",
+      "metadata": {
+        "titleTag": "SHSAT Workbook | Print Edition with 500+ Practice Questions",
+        "metaDescription": "Order the Bell Curves SHSAT Workbook. 500+ questions, strategies, and DOE-aligned content in a trusted print edition."
+      }
+    },
+    {
+      "id": "prod_digital_workbook",
+      "name": "Digital Workbook (Online Interactive Version)",
+      "overview": "The Digital SHSAT Workbook takes the trusted print workbook online. Students can practice chapter by chapter, track progress, and interact with explanations. It’s the perfect balance of book structure and digital convenience.",
+      "features": [
+        "Full workbook content online",
+        "Interactive explanations and exercises",
+        "Chapter-based quizzes",
+        "Progress tracking"
+      ],
+      "benefits": [
+        "Tracks growth over time",
+        "Makes prep more engaging with interactive elements",
+        "Accessible anytime, anywhere",
+        "Combines depth of a workbook with digital tools"
+      ],
+      "whoFor": "Students who prefer digital resources or need a more portable, interactive alternative to print.",
+      "pricing": {
+        "price": "45.99",
+        "discountPrice": "34.49",
+        "note": "Pre-order discount, join waitlist for classroom access."
+      },
+      "cta": "Join the Waitlist for the Digital Workbook",
+      "metadata": {
+        "titleTag": "Digital SHSAT Workbook | Interactive Online Practice",
+        "metaDescription": "Pre-order the Digital SHSAT Workbook. Online, interactive practice with explanations, tracking, and full workbook content."
+      }
+    },
+    {
+      "id": "prod_bundles",
+      "name": "Bundles (Mixed and Digital Packages)",
+      "overview": "Save money and simplify prep with SHSAT Bundles. Each package combines our most popular products into discounted options that give students everything they need to succeed—whether that’s book + online practice or full digital prep.",
+      "features": [
+        "Multiple bundle options (Workbook + Test Pack, Workbook + Question Bank, Virtual Course combos, All-in-One)",
+        "Discounted prices compared to buying separately",
+        "Integrated prep paths with complementary tools",
+        "Digital, print, and mixed formats available"
+      ],
+      "benefits": [
+        "Saves families money",
+        "Simplifies decision-making",
+        "Ensures well-rounded preparation",
+        "Creates structured progression from practice to mastery"
+      ],
+      "whoFor": "Families who want complete SHSAT prep in one convenient, affordable package.",
+      "pricing": {
+        "Workbook + Question Bank": {
+          "price": "100.99",
+          "discountPrice": "85.84"
+        },
+        "Workbook + Test Pack": {
+          "price": "110.98",
+          "discountPrice": "99.88"
+        },
+        "VC + Q-Bank (Digital)": {
+          "price": "119.99",
+          "discountPrice": "95.99"
+        },
+        "VC + Test Pack (Digital)": {
+          "price": "133.99",
+          "discountPrice": "120.59"
+        },
+        "All-In Bundle": {
+          "price": "165.98",
+          "discountPrice": "116.19",
+          "note": "Pre-Order Discount if Digital Workbook included"
+        }
+      },
+      "cta": "Shop SHSAT Bundles and Save",
+      "metadata": {
+        "titleTag": "SHSAT Prep Bundles | Save on Workbooks, Tests & Courses",
+        "metaDescription": "Save on SHSAT prep with Bell Curves Bundles. Get discounted packages combining workbooks, online tests, question banks, and courses."
+      }
+    }
+  ]
+}

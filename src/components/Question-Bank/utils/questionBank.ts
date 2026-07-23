@@ -1,0 +1,10 @@
+export type QuestionType =
+  | "MC_STANDARD"
+  | "MC_DRAG_DROP"
+  | "MA"
+  | "BLANK_PLACEHOLDER"
+  | "BLANK_FILL_BOX"
+  | "TABLE_GRID"
+  | "DND_TWO_BUCKETS_SINGLE"
+  | "DND_TWO_BUCKETS_MULTI"
+  | "DND_ONE_BUCKET_MULTI";
