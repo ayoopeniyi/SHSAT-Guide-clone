@@ -9,11 +9,8 @@ import { ErrorBoundary } from "./components/ErrorBoundary";
 import { ErrorTrackingProvider } from "./components/ErrorTrackingProvider";
 import { ProductsProvider } from "./contexts/ProductsContext";
 import Index from "./pages/Index";
-// import BuyWorkbook from "./pages/BuyWorkbook";
 import CheckoutSuccess from "./pages/CheckoutSuccess";
 import CheckoutCancel from "./pages/CheckoutCancel";
-// import ComingSoon from "./pages/ComingSoon";
-import CorsTest from "./CorsTest";
 import StartPage from "./pages/StartPage";
 import QuizPage from "./pages/QuizPage";
 import ThankYouPage from "./pages/ThankYouPage";
@@ -31,11 +28,6 @@ import TestPack from "./pages/TestPack";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { useEffect, useState } from "react";
 import { useAuthStore } from "./stores/authStore";
-import PostHogDebug from "./components/PostHogDebug";
-import PostHogTest from "./components/PostHogTest";
-import { SessionRecordingDemo } from "./components/SessionRecordingDemo";
-import { ErrorTrackingExample } from "./components/ErrorTrackingExample";
-import FeatureFlagTestPage from "./pages/FeatureFlagTestPage";
 import WhiteLabelPage from "./pages/WhiteLabelPage";
 import PartnershipPage from "./pages/PartnerShipPage";
 import Partnership_callPage from "./pages/Partnership_callPage";
@@ -44,8 +36,6 @@ import ProductsPage from "./pages/ProductsPage";
 import ProductModal from "./components/product-modal/ProductModal";
 import AdminProductsPage from "./pages/AdminProductsPage";
 import ManageTestsPage from "./pages/ManageTestsPage";
-// import ParentGuide from "components/ParentGude";
-// import ParentguidePdf from "./components/ParentguidePdf";
 
 // Create a client
 const queryClient = new QueryClient({
@@ -100,7 +90,6 @@ function App() {
 										<main className="w-full px-0 py-0">
 											<Routes>
 												<Route path="/" element={<Index />} />
-												{/* <Route path="/send-pdf" element={<ParentguidePdf/>} /> */}
 
 												{/* Auth Routes */}
 												<Route path="/login" element={<Login />} />
@@ -207,7 +196,6 @@ function App() {
 													path="/tutors"
 													element={<Index segmentType="tutor" />}
 												/>
-												{/* <Route path="/buy-workbook" element={<BuyWorkbook />} /> */}
 												<Route
 													path="/checkout-success"
 													element={<CheckoutSuccess />}
@@ -215,24 +203,6 @@ function App() {
 												<Route
 													path="/checkout-cancel"
 													element={<CheckoutCancel />}
-												/>
-												<Route path="/cors-test" element={<CorsTest />} />
-												<Route
-													path="/posthog-debug"
-													element={<PostHogDebug />}
-												/>
-												<Route path="/posthog-test" element={<PostHogTest />} />
-												<Route
-													path="/feature-flag-test"
-													element={<FeatureFlagTestPage />}
-												/>
-												<Route
-													path="/session-recording-demo"
-													element={<SessionRecordingDemo />}
-												/>
-												<Route
-													path="/error-tracking-demo"
-													element={<ErrorTrackingExample />}
 												/>
 
 												{/* Quiz Routes */}

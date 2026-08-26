@@ -9,37 +9,39 @@ const PartnerShipPage: React.FC = () => {
 
   const benefits = [
     "White-Label Materials: Workbook, Test Pack, Question Bank, and Digital Course branded with your logo and colors.",
-    "Digital Hosting & LMS: We handle hosting, delivery, and updates — you focus on instruction.",
+    "Digital Hosting & LMS: We handle hosting, delivery, and updates. You focus on instruction.",
     "Co-Branding Options: “Powered by Bell Curves” credibility while keeping your identity front and center.",
     "Flexible Licensing: Options for single-school, multi-site, or city-wide use.",
     "Analytics & Reporting: Track student progress with dashboards and exportable reports.",
   ];
 
   return (
-    <section className="bg-[#1d99c6] min-h-screen flex items-center justify-center text-white py-16 px-6">
+    <section className="bg-bc-blue min-h-screen flex items-center justify-center text-white py-16 px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <div
-          className="flex items-center gap-2 cursor-pointer hover:text-yellow-300 transition-colors duration-200 mb-4"
+        <button
+          type="button"
+          className="flex items-center gap-2 cursor-pointer hover:text-warm-gold transition-colors duration-150 mb-4"
           onClick={() => navigate(-1)}
         >
-          <ArrowLeftCircle className="w-8 h-8" />
-        </div>
+          <ArrowLeftCircle className="w-6 h-6" aria-hidden="true" />
+          <span>Back</span>
+        </button>
 
         <h1 className="text-3xl sm:text-4xl font-bold mb-6 leading-tight">
           Power Your SHSAT Program with Bell Curves Expertise
         </h1>
 
         <p className="text-lg max-w-3xl mx-auto mb-10">
-          Whether you’re a school, community organization, or private tutoring
+          Whether you're a school, community organization, or private tutoring
           company, you can bring fully updated, digital-ready SHSAT prep to your
-          students — under your own brand. Bell Curves provides the content,
+          students, under your own brand. Bell Curves provides the content,
           technology, and support; you provide the connection to your learners.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6 text-left max-w-4xl mx-auto mb-10">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex items-start gap-3">
-              <CheckCircleIcon className="w-6 h-6 text-yellow-300 flex-shrink-0" />
+              <CheckCircleIcon className="w-6 h-6 text-warm-gold flex-shrink-0" />
               <p className="text-base">{benefit}</p>
             </div>
           ))}
@@ -47,7 +49,7 @@ const PartnerShipPage: React.FC = () => {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link to={"/partnership-call"}>
-            <button className="bg-yellow-300 text-black px-4 py-2 rounded transition-all duration-300 ease-in-out hover:bg-[#b9dff2] hover:scale-105 hover:shadow-md">
+            <button className="bg-warm-gold text-deep-navy px-4 py-2 rounded-sm transition-opacity duration-150 hover:opacity-90 active:scale-[0.97]">
               Schedule a Call
             </button>
           </Link>

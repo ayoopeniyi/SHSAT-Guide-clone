@@ -62,19 +62,35 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // SHSAT brand colors
+        // Bell Curves brand colors (DESIGN.md v1.0, July 2026)
+        "bc-blue": "hsl(var(--bc-blue))",
+        "deep-navy": "hsl(var(--deep-navy))",
+        "challenger-orange": "hsl(var(--challenger-orange))",
+        "warm-gold": "hsl(var(--warm-gold))",
+        "independence-teal": "hsl(var(--independence-teal))",
+        "clarity-off-white": "hsl(var(--clarity-off-white))",
+        "neutral-light": "#E2E8F0",
+        "neutral-slate": "#64748B",
+        // Compatibility bridge: 22 files still reference the old ad hoc `brand.*`
+        // names. Rather than silently break their styling (Tailwind doesn't error
+        // on unknown utility classes in className, it just drops them), these now
+        // point at real BC hex values. TODO: migrate those files to reference
+        // bc-blue/deep-navy/warm-gold directly and remove this bridge.
         brand: {
-          blue: "#2563EB",
-          lightBlue: "#E5EEFF",
-          yellow: "#FCD34D",
+          blue: "#33769F",
+          lightBlue: "#E3EEF3",
+          yellow: "#FBBF24",
           gray: "#F3F4F6",
-          dark: "#1A202C",
+          dark: "#16324A",
         },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
@@ -97,12 +113,6 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-      },
-      fontFamily: {
-        sans: ["Inter", "sans-serif"],
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
     },
   },
