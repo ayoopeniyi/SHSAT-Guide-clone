@@ -23,10 +23,10 @@ const CTASection = () => {
 
   const features = [
     "White-label and license SHSAT prep materials",
-    "Tests, Workbook, Q-Bank, and Course—all co-branded",
+    "Tests, Workbook, Q-Bank, and Course, all co-branded",
     "Your logo, colors, and domain",
     "LMS dashboard and analytics",
-    "Apply now—even before your full program is ready"
+    "Apply now, even before your full program is ready"
   ];
 
   return (
@@ -106,35 +106,21 @@ const CTASection = () => {
             {/* Button Group */}
             <div className="flex flex-wrap gap-3 pt-4">
               <Link to="/partnership">
-                <button className="group relative bg-[#f8f2dc] text-black px-5 py-2 rounded-lg transition-all duration-300 hover:bg-[#f4e6b8] hover:shadow-lg hover:-translate-y-1 active:scale-95 overflow-hidden">
-                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></span>
-                  <span className="relative z-10">See Partnership Options</span>
+                <button className="bg-white text-bc-blue px-5 py-2 rounded-md border border-white hover:bg-clarity-off-white transition-colors duration-150 active:scale-[0.97]">
+                  See Partnership Options
                 </button>
               </Link>
               <Link to="/partnership-call">
-                <button className="group relative bg-[#dbeff7] text-black px-5 py-2 rounded-lg transition-all duration-300 hover:bg-[#b9dff2] hover:shadow-lg hover:-translate-y-1 active:scale-95 overflow-hidden">
-                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></span>
-                  <span className="relative z-10">Schedule a Call</span>
+                <button className="bg-transparent text-white px-5 py-2 rounded-md border border-white hover:bg-white/10 transition-colors duration-150 active:scale-[0.97]">
+                  Schedule a Call
                 </button>
               </Link>
             </div>
 
             <div>
               <Link to="/apply">
-                <button className="group relative mt-4 bg-[#f8f2dc] text-black px-5 py-2 rounded-lg w-fit transition-all duration-300 hover:bg-[#f4e6b8] hover:shadow-lg hover:-translate-y-1 active:scale-95 overflow-hidden">
-                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></span>
-                  <span className="relative z-10 flex items-center gap-2">
-                    Apply to Power Your SHSAT Program
-                    <svg 
-                      className="w-4 h-4 transform transition-transform duration-300 group-hover:translate-x-1" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </span>
+                <button className="mt-4 bg-challenger-orange text-white px-5 py-2 rounded-md w-fit transition-opacity duration-150 hover:opacity-90 active:scale-[0.97]">
+                  Apply to Power Your SHSAT Program
                 </button>
               </Link>
             </div>
@@ -146,50 +132,4 @@ const CTASection = () => {
 };
 
 export default CTASection;
-
-
-
-
-	// return (
-	//   <section className="py-16 bg-brand-blue">
-	//     <div className="container-custom text-center">
-	//       <h2 className="text-3xl font-bold text-white mb-4">
-	//         Ready to Get Started?
-	//       </h2>
-	//       <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-	//         Buy the SHSAT Strategy Workbook — Proven Results, Trusted by Thousands
-	//         of NYC Families
-	//       </p>
-
-	//       <div className="flex flex-col sm:flex-row justify-center gap-4">
-	//         <Link
-	//           to="/buy-workbook"
-	//           className="btn-yellow inline-flex items-center justify-center"
-	//         >
-	//           Buy Workbook Now
-	//           <svg
-	//             className="ml-2 w-4 h-4"
-	//             xmlns="http://www.w3.org/2000/svg"
-	//             viewBox="0 0 24 24"
-	//             fill="none"
-	//             stroke="currentColor"
-	//             strokeWidth="2"
-	//             strokeLinecap="round"
-	//             strokeLinejoin="round"
-	//           >
-	//             <line x1="5" y1="12" x2="19" y2="12"></line>
-	//             <polyline points="12 5 19 12 12 19"></polyline>
-	//           </svg>
-	//         </Link>
-	//         <Link to="/contact" className="btn-secondary">
-	//           Contact Support
-	//         </Link>
-	//       </div>
-
-	//       <p className="mt-6 text-white/70 text-sm max-w-md mx-auto">
-	//         Join over 75,000 NYC students and parents who trust Bell Curves for
-	//         their SHSAT preparation
-	//       </p>
-	//     </div>
-	//   </section>
 	// );

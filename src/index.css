@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,35 +7,44 @@
     scroll-behavior: smooth;
   }
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Bell Curves brand tokens (DESIGN.md v1.0, July 2026) */
+    --bc-blue: 202.8 51.4% 41.2%;        /* #33769F */
+    --deep-navy: 207.7 54.2% 18.8%;      /* #16324A */
+    --challenger-orange: 24.6 95.0% 53.1%; /* #F97316 */
+    --warm-gold: 43.3 96.4% 56.3%;       /* #FBBF24 */
+    --independence-teal: 173.4 80.4% 40.0%; /* #14B8A6 */
+    --clarity-off-white: 210.0 40.0% 98.0%; /* #F8FAFC */
+
+    --background: 210.0 40.0% 98.0%;
+    --foreground: 207.7 54.2% 18.8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 207.7 54.2% 18.8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 207.7 54.2% 18.8%;
 
-    --primary: 224 76% 48%;
+    --primary: 202.8 51.4% 41.2%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary-foreground: 207.7 54.2% 18.8%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 24.6 95.0% 53.1%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 224 76% 48%;
+    --ring: 202.8 51.4% 41.2%;
 
-    --radius: 0.5rem;
+    /* DESIGN.md: 3-4px max on cards/buttons/inputs, no pill shapes */
+    --radius: 0.25rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -98,15 +105,15 @@
   }
 
   .btn-primary {
-    @apply bg-brand-blue hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-md transition-all duration-200;
+    @apply bg-bc-blue hover:bg-deep-navy text-white font-medium py-2 px-6 rounded-md transition-colors duration-150 active:scale-[0.97];
   }
 
   .btn-secondary {
-    @apply bg-white hover:bg-gray-100 text-brand-blue font-medium py-2 px-6 rounded-md border border-brand-blue transition-all duration-200;
+    @apply bg-white hover:bg-clarity-off-white text-bc-blue font-medium py-2 px-6 rounded-md border border-bc-blue transition-colors duration-150 active:scale-[0.97];
   }
 
-  .btn-yellow {
-    @apply bg-brand-yellow hover:bg-yellow-400 text-brand-dark font-medium py-2 px-6 rounded-md transition-all duration-200;
+  .btn-accent {
+    @apply bg-challenger-orange hover:opacity-90 text-white font-medium py-2 px-6 rounded-md transition-opacity duration-150 active:scale-[0.97];
   }
 
   .section-title {
@@ -114,7 +121,7 @@
   }
 
   .card {
-    @apply bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+    @apply bg-white p-6 rounded-lg border border-neutral-light hover:shadow-md transition-shadow duration-150;
   }
 
   .container-custom {

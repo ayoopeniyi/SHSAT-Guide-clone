@@ -422,7 +422,7 @@ export default function SchedulePartnership() {
             });
 
             setBookingMessage(
-                `Booking confirmed! ID: ${res.data.uid} — ${displayTime} (${userTimezone})`
+                `Booking confirmed for ${displayTime} (${userTimezone}). ID: ${res.data.uid}`
             );
             setSlots([]);
             setSelectedSlot(null);

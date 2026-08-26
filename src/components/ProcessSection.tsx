@@ -143,7 +143,7 @@ const ProcessSection = () => {
           <div className="mb-10 p-4 bg-gray-100 border border-gray-200 rounded-lg">
             <p className="text-center font-medium">
               The SHSAT now includes grid-in, drag-and-drop, and multi-select
-              questions — designed to match the DOE's new digital format.
+              questions, designed to match the DOE's digital format.
             </p>
           </div>
         )}
@@ -171,8 +171,8 @@ const ProcessSection = () => {
             <p className="text-center text-gray-700">
               Most SHSAT prep materials are outdated or AI-generated. Bell
               Curves content is written by experienced educators who've helped
-              thousands of NYC students succeed — and built specifically for the
-              new 2025 test.
+              thousands of NYC students succeed, and built specifically for the
+              current SHSAT format.
             </p>
           </div>
         )}

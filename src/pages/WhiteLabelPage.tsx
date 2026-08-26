@@ -593,7 +593,7 @@ const WhiteLabelPage = () => {
           </p>
           <button
             onClick={() => navigate("/")}
-            className="mt-6 bg-[#1d99c6] hover:bg-[#1a7f9c] text-white font-semibold py-2 px-4 rounded-md transition-all duration-300"
+            className="mt-6 bg-bc-blue hover:bg-deep-navy text-white font-semibold py-2 px-4 rounded-md transition-colors duration-150"
           >
             Return to Home
           </button>
@@ -604,28 +604,30 @@ const WhiteLabelPage = () => {
 
   return (
     <div className="bg-gray-50 font-sans text-gray-900">
-      <section className="bg-[#1d99c6] text-white py-10 px-4">
-        <div
-          className="flex items-center gap-2 cursor-pointer hover:text-yellow-300 transition-colors duration-200 mb-4"
+      <section className="bg-bc-blue text-white py-10 px-4">
+        <button
+          type="button"
+          className="flex items-center gap-2 cursor-pointer hover:text-warm-gold transition-colors duration-150 mb-4"
           onClick={() => navigate(-1)}
         >
-          <ArrowLeftSquareIcon className="w-8 h-8" />
-        </div>
+          <ArrowLeftSquareIcon className="w-6 h-6" aria-hidden="true" />
+          <span>Back</span>
+        </button>
 
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">
-            Apply to Launch Your Own SHSAT Program — Powered by Bell Curves
+            Apply to Launch Your Own SHSAT Program, Powered by Bell Curves
           </h1>
           <p className="text-lg mb-6">
-            Our White-Label SHSAT solution gives you everything you need to
-            start (or upgrade) your test prep program — fast. Within weeks, you
+            Our White-Label SHSAT program gives you everything you need to
+            start, or upgrade, your test prep offering fast. Within weeks, you
             can be delivering professional, DOE-aligned, digital SHSAT prep
             under your own brand, backed by over 20 years of Bell Curves
             expertise.
           </p>
           <a
             href="#apply"
-            className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 px-6 rounded-md transition-all duration-300"
+            className="inline-block bg-warm-gold hover:opacity-90 text-deep-navy font-semibold py-3 px-6 rounded-md transition-opacity duration-150"
           >
             Apply Now
           </a>
@@ -981,7 +983,7 @@ const WhiteLabelPage = () => {
                 className={`${
                   isSubmitting || isLoadingCaptcha || !captchaId
                     ? "bg-gray-400 cursor-not-allowed"
-                    : "bg-[#1d99c6] hover:bg-[#1a7f9c]"
+                    : "bg-bc-blue hover:bg-deep-navy"
                 } text-white font-semibold py-3 px-6 rounded-md flex-1 transition-all duration-300 flex items-center justify-center`}
               >
                 {isSubmitting ? (
